@@ -33,6 +33,6 @@ app.use(function (err, request, response, next) {
         response.status(401).send("Error!");
     }
 });
-
+console.log("не надо работать!");
 app.listen(3000);
 console.log(square)
