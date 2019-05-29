@@ -33,6 +33,7 @@ app.use(function (err, request, response, next) {
         response.status(401).send("Error!");
     }
 });
+console.log("Делаю ошибку репозитория!");
 
 app.listen(3000);
 console.log(square)
