@@ -1,0 +1,10 @@
+.block-square {
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
